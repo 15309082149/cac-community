@@ -1,0 +1,19 @@
+.all{
+    width:70%;
+    justify-self: center;
+    align-self: center;
+}
+.mods{
+    width:100%;
+    height:200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+.mod{
+    height: 80%;
+    justify-self: center;
+    width:80%;
+    background-color: #00000040;
+}
