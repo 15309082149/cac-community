@@ -1,9 +1,7 @@
 .all{
     width:70%;
     justify-self: center;
-
-    align-self: end;
-    transition: .6s;
+    align-self:start;
 }
 .mods{
     width:100%;
@@ -46,7 +44,6 @@
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: 1fr 1fr 1fr;
         height:300px;
-
     }
     .all{
         width:80%;
