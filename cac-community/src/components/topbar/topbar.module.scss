@@ -1,0 +1,21 @@
+$barh: 82px;
+.zw{
+    height: $barh;
+    width:100%;
+}
+.all{
+    height: $barh;
+    width:100%;
+    position: fixed;
+    top:0;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.sign{
+    justify-self: center;
+    align-self: center;
+    width:100px;
+}
+img{
+    width:100%;
+}
